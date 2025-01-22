@@ -3,12 +3,11 @@ services:
 name: whatsapp-bot
 runtime: docker
 repo: https://github.com/RoyalKatsic1/WhatsApp_Bot
-envVars:
-    - key: SUDO
-sync: false
-    - key: WHATSAPP_TOKEN
-sync: false
+plan: free
+env:
+SUDO: "SUDO"
+WHATSAPP_TOKEN: "WHATSAPP_TOKEN"
 region: oregon
 dockerContext: .
-dockerfilePath: ./DockerfilePath
+dockerfilePath: ./Dockerfile
 version: '1'
