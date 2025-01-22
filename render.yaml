@@ -1,14 +1,12 @@
 services:
-  - type: web
-    name: whatsapp-bot
-    docker:
-      - image: 'docker:latest'
-        context: .
-        dockerfile: Dockerfile
-    port: 3000
-    env:
-      SUDO: "SUDO"
-      WHATSAPP_TOKEN: "WHATSAPP_TOKEN"
-    scaling:
-      minInstances: 1
-      maxInstances: 1
+- type: web
+name: whatsapp-bot
+docker:
+file: ./Dockerfile
+port: 3000
+env:
+SUDO: "SUDO"
+WHATSAPP_TOKEN: "WHATSAPP_TOKEN"
+scaling:
+minInstances: 1
+maxInstances: 1
