@@ -1,5 +1,5 @@
 {
-  "name": "ᴡɪʟʟɪꜱ-ᴍᴅ",
+  "name": "Royal-Katsic-Bot",
   "logo": "https://telegra.ph/file/d7b133573a5a3622775e6.jpg",
   "success_url": "/suhail/",
   "repository": "https://github.com/WillisKE/Suhail",
@@ -9,17 +9,17 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Africa/Nairobi"
+      "value": "Africa/Kampala"
     },
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
       "value": "HRKU-26ad0fbf-58ab-4aee-b161-3144d6b29cf5",
-      "required" :true 
+      "required" :false 
     },   
     "HEROKU_APP_NAME": {
       "description": "Put Your Heroku App Name Here",
       "value": "",
-    "required" :true
+    "required" : false
     },
     "GURL": {
       "description": "Make it 'false' if you wanna run bot in your pm (if MODE is Public)",
@@ -32,11 +32,11 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "254786273945,254702365210,254708336448,254762508828,254101827915"
+      "value": "256764093855,256757343881,256763932826"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
-      "value": ""
+      "value": "WILLIS_2025_eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieUJzWWQyL1VsNVdaOFRLd3ZIRHlhWjY1UEhzcnA5SFRrdXBtMnd0V0hudz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZHY3dWNhUVpjQmNQYXBtRWlOcTZkazlqaHBabURGOFF6bDZzS3ZUclFFMD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ3Rm9GOVFZK0hLczYrYzhnendWWmxuY1p4OGFQS3BrVHhTS3JlbWZjKzBVPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCZEhpa1NuUnNqQmdsZlAzN3RtNG9XbXh6ZXc0MTJFWXZpQTJhTEdlUkdFPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IllIR1ZqTXF1d2s0SnAzSlJSQTJqTGtDc21vaGlraElSanBLVlIydXorbmc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlprblJhYnZHb2tzSWRqcWF1YVE2dnhqREt0NE4zdDdOUEliUmswcVJLd1k9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOEhEUVFkekxhSk5tZTZpSzE4djY3SUR1NTNjOUYwRk0rTEhMbGJvUnBYVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY0RwL3NnVE9UQVRoeW1aWENLK2pLY29WT3pHdVhJZFhTZ3oxblF4aHlDMD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ikhjd2Vad0ZsNXdHZ05iSVlQSjVGVVo4RGVTUEk5K0lUMTZSVXpsajRhZk93TXJrb0ZrTFpyY2J1OE5BQ1V2b2FZZjAzYk1sbjBiUk9FQlR2TkFRU2hBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MzQsImFkdlNlY3JldEtleSI6IlpyZFh0UndCM0hVU0duMzNibEpaWVBOMjczUUNQZUdlZmFaQUVObFE0OTg9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IlI0RmdtSzZmUUF1dGhqNDJiWS1mN3ciLCJwaG9uZUlkIjoiZmNmMDUwZTEtZTNmZS00MjA0LTg4YzMtMDBmNjg5MWI1NjEwIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjNKZWxHY0tnOUZzTGZtd05UOEExNThzSWdaUT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTM2lUTzErUXcyeElOeVVnWU15MkRIWXd2L1k9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiOVhZV0I5S1kiLCJtZSI6eyJpZCI6IjI1Njc2NDA5Mzg1NToyOEBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJSb3lhbCBLYXRzaWMifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ002MXhzVUNFSmo4d0x3R0dBVWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IjVUS2cwNEZTdk1mcFkrY3FSYkdsREc1QzBFbkxSTURFM0I1enpxdWlBejQ9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImRSZ3lsaHVUK3VtY1pIWC9nbWtiT3FvdVA4Si9heVROVFNXQnBWUExUckM4akhCRXNFcW9UUENQVmRHaUlVd0ZXNXBkd05Wd2swVE9qNWF6MDhic0NBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiIwcGlKRHJFcTZtQWJvbEJ1YmF4WVh2enlDNk1UcG44OG9nM0p3SnBSSDFaN1dtSWFKUE1sQTRnU09ac0N5bXdkVU9HQU9XVG5jN2hrUWRKeVc1ejZpZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1Njc2NDA5Mzg1NToyOEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJlVXlvTk9CVXJ6SDZXUG5La1d4cFF4dVF0Qkp5MFRBeE53ZWM4NnJvZ00rIn19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzM3NTA2MzQyfQ=="
     },
     "OPENAI_API_KEY": {
       "description": "put your OPENAI api key here.Get it from beta.openai.com ",
